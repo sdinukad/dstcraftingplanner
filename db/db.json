@@ -1,0 +1,142 @@
+{
+    "items": {
+        "Beekeeper hat": {
+            "type": "craftable",
+            "description": "",
+            "recipe": [
+                {
+                    "item": "Silk",
+                    "quantity": 8
+                },
+                {
+                    "item": "Rope",
+                    "quantity": 1
+                }
+            ]
+        },
+        "Rope": {
+            "type": "craftable",
+            "description": "",
+            "recipe": [
+                {
+                    "item": "Grass",
+                    "quantity": 3
+                }
+            ]
+        },
+        "Ham Bat": {
+            "type": "craftable",
+            "description": "",
+            "recipe": [
+                {
+                    "item": "Meat",
+                    "quantity": 2
+                },
+                {
+                    "item": "Pig Skin",
+                    "quantity": 1
+                },
+                {
+                    "item": "Twigs",
+                    "quantity": 2
+                }
+            ]
+        },
+        "Meat": {
+            "type": "collectable",
+            "description": ""
+        },
+        "Pig Skin": {
+            "type": "collectable",
+            "description": ""
+        },
+        "Twigs": {
+            "type": "collectable",
+            "description": ""
+        },
+        "Silk": {
+            "type": "collectable",
+            "description": ""
+        },
+        "Grass": {
+            "type": "collectable",
+            "description": ""
+        },
+        "Stinger": {
+            "type": "collectable",
+            "description": ""
+        },
+        "Mourning Glory": {
+            "type": "collectable",
+            "description": ""
+        },
+        "Nightshade Nostrum": {
+            "type": "craftable",
+            "description": "",
+            "recipe": [
+                {
+                    "item": "Mourning Glory",
+                    "quantity": 3
+                },
+                {
+                    "item": "Stinger",
+                    "quantity": 1
+                }
+            ]
+        },
+        "Telltale Heart": {
+            "type": "craftable",
+            "description": "",
+            "recipe": [
+                {
+                    "item": "Grass",
+                    "quantity": 3
+                },
+                {
+                    "item": "Spider Gland",
+                    "quantity": 1
+                }
+            ]
+        },
+        "Spider Gland": {
+            "type": "collectable",
+            "description": ""
+        },
+        "Spectral Cure-All": {
+            "type": "craftable",
+            "description": "",
+            "recipe": [
+                {
+                    "item": "Mourning Glory",
+                    "quantity": 3
+                },
+                {
+                    "item": "Telltale Heart",
+                    "quantity": 1
+                }
+            ]
+        },
+        "Dragonpie": {
+            "type": "craftable",
+            "description": "",
+            "recipe": [
+                {
+                    "item": "Dragonfruit",
+                    "quantity": 1
+                },
+                {
+                    "item": "Fillers",
+                    "quantity": 3
+                }
+            ]
+        },
+        "Dragonfruit": {
+            "type": "collectable",
+            "description": ""
+        },
+        "Fillers": {
+            "type": "collectable",
+            "description": "Could be twigs, ice, berries, stone fruit etc"
+        }
+    }
+}

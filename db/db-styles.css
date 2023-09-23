@@ -1,0 +1,181 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #recipe-container {
+    display: none;
+    margin-top: 10px;
+  }
+  
+  .ingredient-item,
+  .ingredient-quantity {
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 5px;
+  }
+  
+  .ingredient-quantity {
+    text-align: right;
+  }
+  
+  .remove-button {
+    margin-top: 5px;
+  }
+  
+
+  
+  #copy-button,
+  #save-button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #copy-button:hover,
+  #save-button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (min-width: 768px) {
+    form {
+      width: 700px;
+    }
+  }
+  h1 {
+  text-align: center;
+}
+
+
+#copy-button,
+#save-button {
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.json-editor {
+    size: auto;
+    padding: 5px;
+    margin-top: 20px;
+    
+  }
+  
+  .json-editor h1 {
+    text-align: center;
+    align-content: center;
+  }
+  
+  .json-editor textarea {
+    margin: 10px 0;
+    box-sizing: border-box;
+    height:600px;
+    width:450px
+  }
+  
+  .json-editor button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .json-editor button:hover {
+    background-color: #0056b3;
+  }
+  /* Split the page into two columns */
+.json-editor {
+    float: left;
+    width: 50%;
+  }
+  
+  #copy-button,
+  #save-button {
+    float: right;
+    width: 50%;
+  }
+  .json-editor {
+    float: left;
+    width: 50%;
+    margin: 10px 0;
+  }
+  
+  #copy-button,
+  #save-button {
+    float: right;
+    width: 50%;
+    margin: 10px 0;
+  }
+
+  /* Split the page into two columns */
+.container {
+    display: flex;
+  }
+  
+  .add-item-column {
+    flex: 1;
+  }
+  
+  .json-editor-column {
+    flex: 1;
+  }
+  

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSON Data Editor</title>
+    <link rel="stylesheet" href="db-styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="add-item-column">
+    <br><h1>Add new item to database</h1>
+    <form id="data-form">
+        <label for="item-name">Item Name:</label>
+        <input type="text" id="item-name" required>
+        <label for="item-type">Item Type:</label>
+        <select id="item-type" required>
+            <option value="collectable">Collectable</option>
+            <option value="craftable">Craftable</option>
+        </select>
+        <label for="description">Description:</label>
+        <textarea id="description" rows="4" cols="50"></textarea>
+        <div id="recipe-container" style="display: none;">
+            <label for="recipe">Recipe:</label>
+            <button id="add-ingredient-button" type="button">Add Ingredient</button>
+            <div id="recipe">
+                <!-- Ingredients will be added here -->
+            </div>
+        </div><br>
+        <button type="submit">Add Item</button><br><br>
+        <a href="../index.html">Return to calculator</a>
+    </form>
+    
+</div>
+
+<div class="json-editor-column">
+    <div class="json-editor">
+        <textarea id="json-input" rows="10" cols="50"></textarea><br>
+        <button id="copy-button">Copy JSON</button>
+        <button id="save-button">Save Data</button>
+    </div>
+</div>
+</div>
+</div>
+    <script src="db-script.js"></script>
+</body>
+</html>

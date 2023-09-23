@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ccc;
+    padding: 5px;
+  }
+  
+  th {
+    background-color: #eee;
+  }
+  
+  input[type="number"] {
+    width: 50px;
+  }
+  
+  button {
+    margin-left: 5px;
+  }
+  
+  .result-cell {
+    font-weight: bold;
+  }
+  
