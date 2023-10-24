@@ -137,6 +137,210 @@
         "Fillers": {
             "type": "collectable",
             "description": "Could be twigs, ice, berries, stone fruit etc"
+        },
+        "Lantern": {
+            "type": "craftable",
+            "description": "",
+            "recipe": [
+                {
+                    "item": "Light Bulb",
+                    "quantity": 2
+                },
+                {
+                    "item": "Twigs",
+                    "quantity": 3
+                },
+                {
+                    "item": "Rope",
+                    "quantity": 2
+                }
+            ]
+        },
+        "Hammer": {
+            "type": "craftable",
+            "description": "",
+            "recipe": [
+                {
+                    "item": "Twigs",
+                    "quantity": 3
+                },
+                {
+                    "item": "Rocks",
+                    "quantity": 3
+                },
+                {
+                    "item": "Grass",
+                    "quantity": 6
+                }
+            ]
+        },
+        "Rocks": {
+            "type": "collectable",
+            "description": ""
+        },
+        "Marble": {
+            "type": "collectable",
+            "description": ""
+        },
+        "Marble Suit": {
+            "type": "craftable",
+            "description": "",
+            "recipe": [
+                {
+                    "item": "Marble",
+                    "quantity": 6
+                },
+                {
+                    "item": "Rope",
+                    "quantity": 2
+                }
+            ]
+        },
+        "Backpack": {
+            "type": "craftable",
+            "description": "",
+            "recipe": [
+                {
+                    "item": "Grass",
+                    "quantity": 4
+                },
+                {
+                    "item": "Twigs",
+                    "quantity": 4
+                }
+            ]
+        },
+        "Football Helmet": {
+            "type": "craftable",
+            "description": "",
+            "recipe": [
+                {
+                    "item": "Pig Skin",
+                    "quantity": 1
+                },
+                {
+                    "item": "Rope",
+                    "quantity": 1
+                }
+            ]
+        },
+        "Gold": {
+            "type": "collectable",
+            "description": ""
+        },
+        "Flint": {
+            "type": "collectable",
+            "description": ""
+        },
+        "Beefalo Bell": {
+            "type": "craftable",
+            "description": "",
+            "recipe": [
+                {
+                    "item": "Gold",
+                    "quantity": 3
+                },
+                {
+                    "item": "Flint",
+                    "quantity": 1
+                }
+            ]
+        },
+        "Logs": {
+            "type": "collectable",
+            "description": ""
+        },
+        "Science Machine": {
+            "type": "craftable",
+            "description": "",
+            "recipe": [
+                {
+                    "item": "Gold",
+                    "quantity": 1
+                },
+                {
+                    "item": "Logs",
+                    "quantity": 4
+                },
+                {
+                    "item": "Rocks",
+                    "quantity": 4
+                }
+            ]
+        },
+        "Board": {
+            "type": "craftable",
+            "description": "",
+            "recipe": [
+                {
+                    "item": "Logs",
+                    "quantity": 4
+                }
+            ]
+        },
+        "Cut Stone": {
+            "type": "craftable",
+            "description": "",
+            "recipe": [
+                {
+                    "item": "Rocks",
+                    "quantity": 3
+                }
+            ]
+        },
+        "Electric Doodad": {
+            "type": "craftable",
+            "description": "",
+            "recipe": [
+                {
+                    "item": "Gold",
+                    "quantity": 2
+                },
+                {
+                    "item": "Cut Stone",
+                    "quantity": 1
+                }
+            ]
+        },
+        "Alchemy Engine": {
+            "type": "craftable",
+            "description": "",
+            "recipe": [
+                {
+                    "item": "Board",
+                    "quantity": 4
+                },
+                {
+                    "item": "Cut Stone",
+                    "quantity": 2
+                },
+                {
+                    "item": "Electrical Doodad",
+                    "quantity": 2
+                }
+            ]
+        },
+        "Beefalo Wool": {
+            "type": "collectable",
+            "description": ""
+        },
+        "Saddle": {
+            "type": "craftable",
+            "description": "",
+            "recipe": [
+                {
+                    "item": "Beefalo Wool",
+                    "quantity": 4
+                },
+                {
+                    "item": "Pig Skin",
+                    "quantity": 4
+                },
+                {
+                    "item": "Gold",
+                    "quantity": 4
+                }
+            ]
         }
     }
 }
